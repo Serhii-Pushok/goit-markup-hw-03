@@ -1,0 +1,274 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --logo-black-color: #000000;
+    --additional-contact-color: rgba(255, 255, 255, 0.6);
+    --bcg-footer-color: #2F303A;
+    --bcg-secondary-color: #F5F4FA;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--white-color);
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+
+.header-nav a {
+    text-decoration: none;
+}
+
+/* Лого */
+
+.name {
+    font-family: Raleway, sans-serif;
+}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--logo-black-color);
+}
+
+.footer-logo {   
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--white-color);
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .current {
+    color: var(--accent-color);
+}
+
+/* Heder contacts */
+
+.header-contacts a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--bcg-footer-color);
+    text-align: center;
+}
+
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color); 
+}
+
+/* Button */
+
+.button {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: inherit;
+    cursor: pointer;
+    color: var(--title-text-color);
+    background-color: var(--bcg-secondary-color);
+    text-align: center;
+}
+
+.button.primary {
+    padding: 10px 32px;
+    min-width: 200px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    padding: 6px 22px;
+    min-width: 73px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/* Section */
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.no-padding-top {
+    padding-top: 0;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Features */
+
+.features .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color); 
+}
+
+.features .text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Team */
+
+.team .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--title-text-color);
+    
+}
+
+.team .text {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* Works */
+
+.works .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.works .text { 
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color);
+}
+
+.works a {
+    text-decoration: none;
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: var(--bcg-footer-color);
+}
+
+.page-footer a {
+    text-decoration: none;
+}
+
+.footer-contacts a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--additional-contact-color);
+}
+
+.footer-contacts .address-info {
+    color: var(--white-color);
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+    color: var(--accent-color);
+}
