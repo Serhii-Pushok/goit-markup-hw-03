@@ -68,7 +68,7 @@ img {
 
 .header-logo {
     display: block;
-    padding-top: 9px;
+    padding-top: 24px;
     padding-bottom: 25px;
     font-weight: 700;
     font-size: 26px;
@@ -103,7 +103,7 @@ img {
 
 .site-nav .link {
     display: block;
-    padding-top: 17px;
+    padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
@@ -134,7 +134,7 @@ img {
 
 .header-contacts .link {
     display: block;
-    padding-top: 17px;
+    padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
@@ -152,6 +152,7 @@ img {
 /* Hero */
 
 .hero {
+    padding: 200px 0;
     background-color: var(--bcg-footer-color);
     text-align: center;
 }
@@ -215,10 +216,6 @@ img {
 
 .no-padding-top {
     padding-top: 0;
-}
-
-.no-padding-bottom {
-    padding-bottom: 0;
 }
 
 .section-title {
@@ -291,18 +288,18 @@ img {
 
 /* Team */
 
-.team-section {
+.team {
 background-color: var(--bcg-secondary-color);
 }
 
-.team {
+.team-members {
     display: flex;
     margin-left: -30px;
     margin-top: -30px;
     text-align: center;
 }
 
-.team .item {
+.team-members .item {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
     margin-top: 30px;
@@ -313,7 +310,7 @@ background-color: var(--bcg-secondary-color);
     padding: 30px 0;
 }
 
-.team .title {
+.team-members .title {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
@@ -322,7 +319,7 @@ background-color: var(--bcg-secondary-color);
     color: var(--title-text-color);
 }
 
-.team .text {
+.team-members .text {
     margin-top: 10px;
     margin-bottom: 0;
     font-size: 16px;
@@ -384,12 +381,9 @@ background-color: var(--bcg-secondary-color);
 /* Footer */
 
 .page-footer {
-    background-color: var(--bcg-footer-color);
-}
-
-.page-footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: var(--bcg-footer-color);
 }
 
 .page-footer a {
